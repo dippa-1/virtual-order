@@ -5,7 +5,7 @@
   import ContainerOverview from "../components/ContainerOverview.svelte";
 </script>
 
-<div class="flex space-x-4">
+<div class="flex flex-wrap justify-around">
   <ContainerOverview />
   <Link to="new/container">
     <AddContainerCard />

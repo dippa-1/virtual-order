@@ -6,13 +6,14 @@ export interface Item {
 };
 
 export interface Folder {
-  items: Item[];
+  name: string;
+  description: string;
   isOpen: boolean;
+  items: Item[];
 };
 
 export interface Container {
   name: string;
-  width: number;
-  height: number;
   folders: Folder[]; // folders.length === width*height
+  description: string;
 };

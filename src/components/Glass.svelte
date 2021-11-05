@@ -7,8 +7,8 @@
 </script>
 
 <div
-  class="bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-40 bg-gray-200 rounded-3xl {hoverable
-    ? 'hover:bg-gray-50 hover:bg-opacity-40'
+  class="bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-[50%] bg-gray-900 rounded-3xl {hoverable
+    ? 'hover:bg-opacity-40 text-white'
     : ''}"
   in:scale={{
     easing: expoOut,
